@@ -39,7 +39,7 @@
         
         float w = (float) width;
         float h = (float) height;
-        CGSize size = CGSizeMake(1000, 1000);
+        CGSize size = CGSizeMake(w, h);
         SimpleRenderer *render = [[SimpleRenderer alloc]initWithFrame:size];
         __block int64_t textureID = 0;
         __weak typeof(self) wself = self;

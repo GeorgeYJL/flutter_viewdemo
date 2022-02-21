@@ -140,10 +140,18 @@
     [EAGLContext setCurrentContext:_context];
 //    glClearColor(0.2, 0.2, 0.2, 1);
 //    glClear(GL_COLOR_BUFFER_BIT);
-    [_myGLRenderer onDraw];
     
-    glFlush();
-    _callback();
+    if( [_myGLRenderer onDraw]){
+        glFlush();
+        _callback();
+//        dispatch_async(dispatch_get_main_queue(), _callback());
+    }
+    
+   
+    
+    
+    
+    
 }
 
 @end

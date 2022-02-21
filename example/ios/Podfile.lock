@@ -2,21 +2,34 @@ PODS:
   - Flutter (1.0.0)
   - flutter_viewdemo (0.0.1):
     - Flutter
+  - MTBBarcodeScanner (5.0.11)
+  - qr_code_scanner (0.2.0):
+    - Flutter
+    - MTBBarcodeScanner
 
 DEPENDENCIES:
   - Flutter (from `Flutter`)
   - flutter_viewdemo (from `.symlinks/plugins/flutter_viewdemo/ios`)
+  - qr_code_scanner (from `.symlinks/plugins/qr_code_scanner/ios`)
+
+SPEC REPOS:
+  trunk:
+    - MTBBarcodeScanner
 
 EXTERNAL SOURCES:
   Flutter:
     :path: Flutter
   flutter_viewdemo:
     :path: ".symlinks/plugins/flutter_viewdemo/ios"
+  qr_code_scanner:
+    :path: ".symlinks/plugins/qr_code_scanner/ios"
 
 SPEC CHECKSUMS:
   Flutter: 434fef37c0980e73bb6479ef766c45957d4b510c
   flutter_viewdemo: b358aefff362db1edc4ba4f7793a0d2effa5a339
+  MTBBarcodeScanner: f453b33c4b7dfe545d8c6484ed744d55671788cb
+  qr_code_scanner: bb67d64904c3b9658ada8c402e8b4d406d5d796e
 
-PODFILE CHECKSUM: 8e679eca47255a8ca8067c4c67aab20e64cb974d
+PODFILE CHECKSUM: 32dfe037177bc3b8d423303ee0fa23f5b23ccfee
 
 COCOAPODS: 1.11.2
